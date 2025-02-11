@@ -1,0 +1,82 @@
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #f5f5f5;
+}
+
+.card {
+background: white;
+padding: 20px;
+border-radius: 12px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+width: 100%;
+max-width: 400px;
+text-align: center;
+}
+
+.title {
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.input-group {
+margin-bottom: 15px;
+text-align: left;
+}
+
+.input-group label {
+display: block;
+margin-bottom: 5px;
+font-weight: 500;
+}
+
+.input-group input,
+.input-group select {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 8px;
+}
+
+.analyze-button {
+width: 100%;
+padding: 10px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+font-size: 16px;
+}
+
+.analyze-button:disabled {
+background-color: #aaa;
+cursor: not-allowed;
+}
+
+.result {
+margin-top: 20px;
+padding: 15px;
+background-color: #f9f9f9;
+border: 1px solid #ddd;
+border-radius: 8px;
+text-align: left;
+}
+
+.result h2 {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.result .positive {
+color: green;
+font-weight: bold;
+}
+
+.result .negative {
+color: red;
+font-weight: bold;
+}
